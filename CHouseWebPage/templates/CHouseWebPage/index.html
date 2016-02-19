@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="{% static 'CHouseWebPage/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'CHouseWebPage/css/index.css' %}">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="{% static 'CHouseWebPage/js/jquery-2.2.0.min.js' %}"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'CHouseWebPage/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'CHouseWebPage/js/index.js' %}"></script>
+    <title>this is yanxi</title>
+</head>
+<body>
+    <div class="head">
+        <ul class="nav-mine">
+            <li><a class="title" href="#">index</a></li>
+            <li><a class="title" href="#">test</a></li>
+            <li><a class="title" href="#">yanxi</a></li>
+        </ul>
+
+        <a id="sign-up" class="btn btn-default" href="#" role="button">text-u</a>
+        <a id="sign-in" class="btn btn-default" href="#" role="button">text-i</a>
+    </div>
+    <div class="container">
+        <div id="part_01" class="part">
+            <div style="width: 75%;height: 100%; float: left;">
+                <img style="width: 100%;height: 100%;" src="{% static 'CHouseWebPage/image/test.png' %}">
+            </div>
+            <div class="right-list" style="float: left; width: 25%">
+                <ul class="right-ul">
+                    <li class="right-li"><a class="right-li-a">this is the very interesting</a></li>
+                    <li class="right-li"><a class="right-li-a">this is the very interesting</a></li>
+                    <li class="right-li"><a class="right-li-a">this is the very interesting</a></li>
+                    <li class="right-li"><a class="right-li-a">this is the very interesting</a></li>
+                    <li class="right-li"><a class="right-li-a">this is the very interesting</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="part_02" class="part">
+
+        </div>
+        <div id="part_03" class="part">
+
+        </div>
+    </div>
+</body>
+</html>
