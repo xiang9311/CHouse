@@ -1,12 +1,22 @@
 body {
     width: 100vw;
+    background-color: white;
+    font: 14px / 1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
 }
 
-div.head {
+div.head-container {
+    position: fixed;
     width: 100%;
     height: 50px;
     /*background-color: hotpink;*/
     background-color: springgreen;
+    z-index: 1;
+}
+
+div.head {
+    width:1108px;
+    height: 50px;
+    margin: 0 auto;
 }
 
 .nav-mine {
@@ -36,6 +46,7 @@ a.title:hover {
 a#sign-up {
     display: inline;
     float: right;
+    height: 34px;
     margin: 8px 15px 8px 10px;
     background-color: hotpink;
 }
@@ -47,6 +58,7 @@ a#sign-up:hover {
 a#sign-in {
     display: inline;
     float: right;
+    height: 34px;
     margin: 8px 0 8px 10px;
     background-color: hotpink;
 }
@@ -57,33 +69,34 @@ a#sign-in:hover {
 
 /*  part  */
 .container {
-    width: 100%;
+    width: 1108px;
     padding: 0;
+    padding-top: 50px;
 }
 
 div.part {
-    width: 100%;
+    width: 1108px;
     height: 580px;
-    background-color: white;
 }
 
 div.right-list {
-    height: 100%;
+    height: 580px;
     background-color: #1b6d85;
 }
 
 .right-ul {
     list-style: none;
-    padding: 7% 15%;
+    width: 100%;
+    height: 100%;
+    padding: 34px 38px;
 }
 
 .right-li {
-
+    width: 200px;
 }
 
 .right-li-a {
-    height: 96px;
-    width: 100%;
+    height: 100px;
     color: #fff;
     display: block;
     font-weight: 600;
@@ -102,4 +115,115 @@ div.right-list {
 .right-li-a:hover {
     text-decoration: none;
     color: white;
+}
+
+.part-intro {
+    width: 292px;
+    height: 170px;
+    float: left;
+    margin-left: 10px;
+    background-color: springgreen;
+}
+
+.item-part3 {
+    width: 213px;
+    height: 310px;
+    margin-left: 11px;
+    background-color: springgreen;
+    float: left;
+}
+
+.item-part4 {
+    width: 207px;
+    height: 250px;
+    margin-left: 11px;
+    background-color: springgreen;
+    float: left;
+}
+
+
+.item-part4-1 {
+    width: 240px;
+    height: 510px;
+    margin-left: 0px;
+    background-color: springgreen;
+    float: left;
+}
+
+.item-part4-2 {
+    margin-left: 10px;
+    background-color: springgreen;
+    float: left;
+}
+
+.item-part4-2-bottom {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: springgreen;
+    float: left;
+}
+
+.item-part5 {
+    width: 213px;
+    height: 310px;
+    margin-left: 11px;
+    margin-top: 10px;
+    background-color: springgreen;
+    float: left;
+}
+
+.item-part7 {
+    width: 268px;
+    height: 330px;
+    margin-left: 12px;
+    background-color: springgreen;
+    float: left;
+}
+
+.ul-part-category {
+    list-style: none;
+}
+
+.ul-part-category li {
+    margin: 0 10px 0 0;
+    display: inline;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 2px;
+    border-bottom-color: white;
+    transition-property: color, border-bottom-color;
+    transition-duration: 0.3s;
+}
+
+.ul-part-category li:hover {
+    color: hotpink;
+    border-bottom: 2px solid hotpink;
+}
+
+
+
+.item-left {
+    margin-left: 0;
+}
+
+.item-top {
+    margin-top: 0;
+}
+
+.card {
+    -moz-box-shadow: 2px 2px 5px #777777; /* 老的 Firefox */
+    box-shadow: 2px 2px 5px #777777;
+}
+
+.card:hover {
+    -moz-box-shadow: 4px 4px 5px #888888; /* 老的 Firefox */
+    box-shadow: 4px 4px 5px #888888;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.btn {
+    border-radius: 0;
 }

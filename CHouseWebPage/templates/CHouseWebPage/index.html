@@ -6,23 +6,22 @@
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="{% static 'CHouseWebPage/css/bootstrap.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'CHouseWebPage/css/index.css' %}">
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="{% static 'CHouseWebPage/js/jquery-2.2.0.min.js' %}"></script>
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="{% static 'CHouseWebPage/js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'CHouseWebPage/js/index.js' %}"></script>
+
     <title>this is yanxi</title>
 </head>
 <body>
-    <div class="head">
-        <ul class="nav-mine">
-            <li><a class="title" href="#">index</a></li>
-            <li><a class="title" href="#">test</a></li>
-            <li><a class="title" href="#">yanxi</a></li>
-        </ul>
+    <div class="head-container">
+        <div class="head">
+            <ul class="nav-mine">
+                <li><a class="title" href="#">index</a></li>
+                <li><a class="title" href="#">test</a></li>
+                <li><a class="title" href="#">yanxi</a></li>
+            </ul>
 
-        <a id="sign-up" class="btn btn-default" href="#" role="button">text-u</a>
-        <a id="sign-in" class="btn btn-default" href="#" role="button">text-i</a>
+            <a id="sign-up" class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#signupModal">text-u</a>
+            <a id="sign-in" class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#signinModal">text-i</a>
+        </div>
+
     </div>
     <div class="container">
         <div id="part_01" class="part">
@@ -39,12 +38,244 @@
                 </ul>
             </div>
         </div>
-        <div id="part_02" class="part">
+        <div id="part_02" class="part" style="margin-top: 10px; height: auto">
+            <div class="part-intro" style="margin-left: 0; width: 200px; background: {% static 'CHouseWebPage/image/test_03.png' %};">
 
+            </div>
+            <div class="part-intro">
+
+            </div>
+            <div class="part-intro" style="margin-left: 11px">
+
+            </div>
+            <div class="part-intro" style="margin-left: 11px">
+
+            </div>
+            <div style="clear: both"></div>
         </div>
-        <div id="part_03" class="part">
+        <div id="part_03" class="part" style="margin-top: 10px; height: auto">
+            <!--title and some action-->
+            <div style="padding-bottom: 10px; position: relative;">
+                <h3>测试内容分类</h3>
+                <div style="position: absolute; right: 0; top: 7px; display: block; background-color: hotpink;width: 80px; height: 30px;">
 
+                </div>
+            </div>
+
+            <div>
+                <div class="item-part3" style="margin-left: 0px">
+
+                </div>
+                <div class="item-part3">
+
+                </div>
+                <div class="item-part3">
+
+                </div>
+                <div class="item-part3">
+
+                </div>
+                <div class="item-part3" style="margin-left: 10px">
+
+                </div>
+            </div>
+            <div style="clear:both;">
+                
+            </div>
+        </div>
+        <div id="part_04" class="part" style="margin-top: 10px; height: auto;">
+            <!--title and some action-->
+            <div style="padding-bottom: 10px; position: relative;">
+                <h3>测试内容分类</h3>
+                <div style="position: absolute; right: 0; top: 7px; display: block; background-color: hotpink;width: 80px; height: 30px;">
+
+                </div>
+            </div>
+            <div>
+                <div class="item-part4 item-part4-1">
+
+                </div>
+                <div class="item-part4 item-part4-2">
+
+                </div>
+                <div class="item-part4 item-part4-2">
+
+                </div>
+                <div class="item-part4 item-part4-2">
+
+                </div>
+                <div class="item-part4 item-part4-2">
+
+                </div>
+                <div class="item-part4 item-part4-2 item-part4-2-bottom">
+
+                </div>
+                <div class="item-part4 item-part4-2 item-part4-2-bottom">
+
+                </div>
+                <div class="item-part4 item-part4-2 item-part4-2-bottom">
+
+                </div>
+                <div class="item-part4 item-part4-2 item-part4-2-bottom">
+
+                </div>
+            </div>
+            <div style="clear: both">
+
+            </div>
+        </div>
+        <div id="part_05" class="part" style="height: auto">
+            <!--title and some action-->
+            <div style="padding-bottom: 10px; position: relative;">
+                <h3>测试内容分类</h3>
+                <div style="position: absolute; right: 0; top: 7px; display: block; background-color: hotpink;width: 80px; height: 30px;">
+
+                </div>
+            </div>
+            <div>
+                <div class="item-part5 item-left item-top">
+
+                </div>
+                <div class="item-part5 item-top">
+
+                </div>
+                <div class="item-part5 item-top">
+
+                </div>
+                <div class="item-part5 item-top">
+
+                </div>
+                <div class="item-part5 item-top" style="margin-left: 10px">
+
+                </div>
+                <div class="item-part5 item-left">
+
+                </div>
+                <div class="item-part5">
+
+                </div>
+                <div class="item-part5">
+
+                </div>
+                <div class="item-part5">
+
+                </div>
+                <div class="item-part5" style="margin-left: 10px">
+
+                </div>
+            </div>
+            <div style="clear: both">
+
+            </div>
+        </div>
+
+        <div id="part_06" class="part" style="margin-top: 10px; height: auto">
+            <!--title and some action-->
+            <div style="padding-bottom: 10px; position: relative;">
+                <h3>测试内容分类</h3>
+                <div style="position: absolute; right: 0; top: 7px; display: block; width: auto; height: 30px;">
+                    <ul class="ul-part-category">
+                        <li>分类</li>
+                        <li>分分类</li>
+                        <li>分类类</li>
+                        <li style="margin-right: 0;">分分类类</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="item-part5 item-left item-top card">
+
+                </div>
+                <div class="item-part5 item-top card">
+
+                </div>
+                <div class="item-part5 item-top card">
+
+                </div>
+                <div class="item-part5 item-top card">
+
+                </div>
+                <div class="item-part5 item-top card" style="margin-left: 10px">
+
+                </div>
+                <div class="item-part5 item-left card">
+
+                </div>
+                <div class="item-part5 card">
+
+                </div>
+                <div class="item-part5 card">
+
+                </div>
+                <div class="item-part5 card">
+
+                </div>
+                <div class="item-part5 card" style="margin-left: 10px">
+
+                </div>
+            </div>
+            <div style="clear: both">
+
+            </div>
+        </div>
+
+        <div id="part_07" class="part" style="margin-top: 10px">
+            <!--title and some action-->
+            <div style="padding-bottom: 10px; position: relative;">
+                <h3>测试内容分类</h3>
+            </div>
+
+            <div>
+                <div class="item-part7 item-left card">
+
+                </div>
+                <div class="item-part7 card">
+
+                </div>
+                <div class="item-part7 card">
+
+                </div>
+                <div class="item-part7 card">
+
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+          </div>
+          <div class="modal-body">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signin Modal -->
+    <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Sign In</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-login" src="{% static 'CHouseWebPage/image/test_2.png' %}" style="height: 100px; width: 200px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="{% static 'CHouseWebPage/js/jquery-2.2.0.min.js' %}"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="{% static 'CHouseWebPage/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'CHouseWebPage/js/index.js' %}"></script>
 </body>
 </html>
